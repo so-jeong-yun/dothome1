@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout02</title>
+    <style>
+        @font-face{
+            font-family: 'S-CoreDream-8Heavy';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        * {   
+            margin: 0;  /*여백 설정*/
+            padding: 0;
+        }
+        body{
+            background: #ffe0b2;
+        }
+        #wrap{
+            width: 1200px;
+            height: 1600px;
+            margin: 0 auto; /*블록을 가운데 정렬*/
+            font-size: 72px;
+            text-align: center; /*글씨를 가운데 정렬*/
+            color:#fff; /* 글의 색*/
+            text-transform: uppercase; /* 글자를 대문자로 변경*/
+            font-family: 'S-CoreDream-8Heavy';  
+        }
+        #header{
+            width: 1200px; 
+            height: 150px;
+            line-height: 150px; /*다른 블록에도 동일하게 height 값과 똑같이 넣어줘야함*/
+            background: #ffcc80;
+        }
+        #nav{
+            width: 1200px; 
+            height: 150px;
+            line-height: 150px; 
+            background:#ffb74d ;
+            list-style: height 150px; ;
+        }
+        #side{
+            width: 450px; 
+            height: 1100px;
+            line-height: 1100px;
+            background: #ff9800;
+            list-style: height 150px; ;
+            float: left;
+        }
+        #contents{
+            width: 750px; 
+            height: 1100px;
+            line-height: 1100px; 
+            background:#fb8c00 ;
+            list-style: height 150px; ;
+            float: left; /* footer이 없어지는걸 방지*/
+        }
+        #footer{
+            width: 1200px; 
+            height: 200px;
+            line-height: 200px; 
+            background: #f57c00;
+            clear: both; /* 블록이 없어지지 않기 위해 쓰는것*/
+        }
+
+    </style>
+    </head>
+<body>
+    <div id= "wrap">
+        <div id= "header">header</div>
+        <div id= "nav">nav</div>
+        <div id= "side">side</div>
+        <div id= "contents">contents</div>
+        <div id= "footer">footer</div>
+    </div>
+</body>
+</html>
