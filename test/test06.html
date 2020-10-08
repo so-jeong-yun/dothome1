@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        #wrap {width: 100%; margin: 0 auto;  text-transform: uppercase; font: #fff;}
+        #header {height: 200px;background-color: #222222;}
+        #banner {height: 400px;background-color: #333333;}
+        #contents {height: 1200px;background-color: #444444;}
+        #footer {height: 200px;background-color: #555555;}
+
+        .container {margin: 0 auto; width: 1200px; height: inherit; background-color: rgba(0, 0, 0, 0.3);}
+        #cont_1 {height: 200px; background-color: #6666;}
+        #cont_2 {height: 200px; background-color: #7777;}
+        #cont_3 {height: 200px; background-color: #8888;}
+        #cont_4 {height: 200px; background-color: #9999;}
+        #cont_5 {height: 200px; background-color: #1125;}
+        #cont_6 {height: 200px; background-color: #2235;}
+
+        .cont_6 {overflow: hidden;}
+        .cont_6 .right {position: relative; width: 560px; padding: 20px; float: left;}
+        .cont_6 .left {position: relative; width: 560px; padding: 20px; float: left;}
+        .cont_6 .right .more {position: absolute; right: 20px; top: 20px;}
+        .cont_6 .left .more {position: absolute; right: 20px; top: 20px;}
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div class="container">header</div>
+        </div>
+        <div id="banner">
+            <div class="container">banner</div>0
+        </div>
+        <div id="contents">
+            <div id="cont_1">
+                <div class="container">cont_1</div>
+            </div>
+            <div id="cont_2">
+                <div class="container">cont_2</div>
+            </div>
+            <div id="cont_3">
+                <div class="container">cont_3</div>
+            </div>
+            <div id="cont_4">
+                <div class="container">cont_4</div>
+            </div>
+            <div id="cont_5">
+                <div class="container">cont_5</div>
+            </div>
+            <div id="cont_6">
+                <div class="container">
+                    <div class="cont_6">
+                        <div class="right">
+                            <h3>공지사항</h3>
+                            <p>시스템 점검 안내</p>
+                            <span>2020.9.21</span>
+                            <a href="#" class="more">더보기</a>
+                        </div>
+                        <div class="left">
+                            <h3>당첨자 발표</h3>
+                            <p>메가박스 영화 제공권 이벤트</p>
+                            <span>2020.10.06</span>
+                            <a href="#" class="more">더보기</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <div class="container"></div>
+            </div>
+        </div>
+    </body>
+    </html>
