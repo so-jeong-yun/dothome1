@@ -1,4 +1,3 @@
-
 /* 스킵 내비게이션*/
 #skip {position: relative;}
 #skip a {position: absolute; left: 0px; top: -50px; color: #fff;
