@@ -4,4 +4,5 @@ https://so-jeong-yun.github.io/dothome1/webstandard/index.html
 
 
 #제이쿼리 예제<br>
-https://so-jeong-yun.github.io/dothome1/jquery/jquery04_find2.html
+https://so-jeong-yun.github.io/dothome1/jquery/jquery04_find2.html 
+addClass() https://so-jeong-yun.github.io/dothome1/jquery/jquery06.addClass.html
