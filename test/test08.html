@@ -7,18 +7,23 @@
 </head>
 <body>
     <script>
-     function func15(){
-         let i =0, sum = 0;
-         while(1) {
-             i++;
-             if(i>10) break;
-             if(i % 3 == 0) continue;
-             sum += i;
-             document.write(i );
-         }
-             document.write(sum);
-     }
-     func15();
+var greenArr =[,"교대", "방배", "강남"]
+var yellowArr =["미금","정자", "수서"]
+
+greenArr.splice(2,1,"서초","역삼")
+document.write(greenArr);
+document.write("<br>");
+
+var data1 = yellowArr.pop();
+var data2 = yellowArr.shift();
+document.write("<br>");
+
+yellowArr.push(data2);
+document.write(yellowArr);
+document.write("<br>");
+
+yellowArr.unshift(data1);
+document.write(yellowArr);
     </script>
 </body>
 </html>
